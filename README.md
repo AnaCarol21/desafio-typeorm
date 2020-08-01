@@ -12,22 +12,21 @@ Essa aplicação deve cadastrar um novo cliente, um novo produto com seu preço 
 
 ## :sparkles: Como usar esta aplicação?
 
-```
-# Clonar o repositório
-
+```bash
+  # Clonar o repositório
   $ git clone https://github.com/AnaCarol21/desafio-typeorm.git
 
-# Instalar todas as dependências
+  # Instalar todas as dependências
+  $ yarn
 
-  yarn
+  # Iniciar uma fake API
+  $ yarn json-server server.json -p 3333
 
-# Iniciar aplicação
-
-  yarn dev:server
-
-# Aplicar testes
-
-  yarn test
+  # Iniciar aplicação
+  $ yarn start
+  
+  # Aplicar testes
+  $ yarn test
 ```
 
 **Atenção:** Para iniciar a aplicação e fazer os testes você deverá criar um banco de dados com o nome "gostack_desafio09_tests" para que os testes possam ser executados e um "gostack_desafio09" para execução
